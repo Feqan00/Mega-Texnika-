@@ -65,4 +65,18 @@ header p {
 
 .sec-1-button:hover {
   background-color: #FFC01F;
+}
+
+.techniques .tech-card {
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 315px;
+  padding: 25px 0 0;
+}
+.techniques .tech-cards_p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: #596C72;
 }/*# sourceMappingURL=style.css.map */
