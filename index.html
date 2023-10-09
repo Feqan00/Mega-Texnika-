@@ -46,106 +46,161 @@
             </div>
         </div>
     </header>
-    <div class="nav-bar ">
+    <div class="nav-bar">
         <div class="own-container">
-            <div class="bottom-header">
-                <div class="d-flex align-items-center">
-                    <div class="col-lg-3 col-md-">
-                        <img src="./assets/logo/logo.png" alt="nav-bar_logo">
-                    </div>
-                    <div class="col-lg-7 col-md-">
-                        <nav>
-                            <ul class="d-flex align-items-center gap-5 mb-0">
-                                <li>
-                                    <a href="./index.html">Əsas səhifə</a>
-                                </li>
-                                <li>
-                                    <a href="#">Haqqımızda</a>
-                                </li>
-                                <li>
-                                    <a href="#">Texnikalar</a>
-                                </li>
-                                <li>
-                                    <a href="#">İcarə şərtləri</a>
-                                </li>
-                                <li>
-                                    <a href="#">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="#">Əlaqə</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-lg-2 col-md-">
-                        <div class="language d-flex justify-content-end gap-2">
-                            <span class="lang-hover">Az</span>
-                            <span>|</span>
-                            <span class="lang-hover">EN</span>
-                            <span>|</span>
-                            <span class="lang-hover">RU</span>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="./assets/logo/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Əsas səhifə</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Haqqımızda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Texnikalar
+
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Avtokranlar</a></li>
+                                    <li><a class="dropdown-item" href="#">Traktorlar</a></li>
+                                    <li><a class="dropdown-item" href="#">Qaldırıcı səbətlər</a></li>
+                                    <li><a class="dropdown-item" href="#">Forkliftlər</a></li>
+                                    <li><a class="dropdown-item" href="#">Katok</a></li>
+                                    <li><a class="dropdown-item" href="#">Shacman</a></li>
+                                    <li><a class="dropdown-item" href="#">Bobcat</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-disabled="true">İcarə şərtləri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-disabled="true">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-disabled="true">Elaqe</a>
+                            </li>
+
+                        </ul>
+                        <div class="col-lg-2 col-md-">
+                            <div class="language d-flex justify-content-end gap-2">
+                                <span class="lang-hover">Az</span>
+                                <span>|</span>
+                                <span class="lang-hover">EN</span>
+                                <span>|</span>
+                                <span class="lang-hover">RU</span>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </nav>
+        </div>
+    </div>
+    <div class="own-container">
+        <div class="row">
+            <div class="sec-1">
+                <div class="col">
+                    <p class="sec-1-p1">Ağır texnikanızı bizdən satın alın</p>
+                    <p class="sec-1-p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled</p>
+                    <button class="sec-1-button">Ətraflı</button>
+                </div>
+                <div class="col">
+                    <img src="./assets/photo/image 1.png" alt="photo">
+                </div>
             </div>
         </div>
     </div>
     <div class="own-container">
-        <div class="d-flex align-items-center mt-10">
-            <div class="col-6">
-                <p class="sec-1-p1">Ağır texnikanızı bizdən satın alın</p>
-                <p class="sec-1-p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the
-                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled</p>
-                <button class="sec-1-button">Ətraflı</button>
-            </div>
-            <div class="col-6">
-                <img src="./assets/photo/image 1.png" alt="photo">
-            </div>
-        </div>
-    </div>
-    <div class="own-container">
-        <p>Kateqoriyalar</p>
         <div class="techniques">
-            <div class="d-flex flex-wrap gap-5">
-                <div class="col-2 tech-card">
-                    <p class="tech-cards_p">Avtokranlar</p>
-                    <img src="./assets/photo/image 39.png" alt="photo">
+            <p class="tech-card-head_P">Kateqoriyalar</p>
+            <div class=" row g-3">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="tech-card">
+
+                        <p class="tech-cards_p">Avtokranlar</p>
+                        <img src="./assets/photo/image 39.png" alt="photo">
+                    </div>
                 </div>
-                <div class="col-2 tech-card">
-                    <p class="tech-cards_p">Avtokranlar</p>
-                    <img src="./assets/photo/image 39.png" alt="photo">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12 ">
+                    <div class="tech-card">
+
+                        <p class="tech-cards_p">Traktorlar</p>
+                        <img src="./assets/photo/home-page-2.png" alt="photo">
+                    </div>
                 </div>
-                <div class="col-2 tech-card">
-                    <p class="tech-cards_p">Avtokranlar</p>
-                    <img src="./assets/photo/image 39.png" alt="photo">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                    <div class="tech-card">
+
+                        <p class="tech-cards_p">Qaldırıcı səbətlər</p>
+                        <img src="./assets/photo/home-page-3.png" alt="photo">
+                    </div>
                 </div>
-                <div class="col-2 tech-card">
-                    <p class="tech-cards_p">Avtokranlar</p>
-                    <img src="./assets/photo/image 39.png" alt="photo">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                    <div class="tech-card">
+
+                        <p class="tech-cards_p">Forkliftlər</p>
+                        <img src="./assets/photo/home-page-4.png" alt="photo">
+                    </div>
                 </div>
-                <div class="col-2 tech-card">
-                    <p class="tech-cards_p">Avtokranlar</p>
-                    <img src="./assets/photo/image 39.png" alt="photo">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                    <div class="tech-card">
+
+                        <p class="tech-cards_p">Katok</p>
+                        <img src="./assets/photo/home-page-5.png" alt="photo">
+                    </div>
                 </div>
-                <div class="col-2 tech-card">
-                    <p class="tech-cards_p">Avtokranlar</p>
-                    <img src="./assets/photo/image 39.png" alt="photo">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                    <div class="tech-card">
+
+                        <p class="tech-cards_p">Shacman</p>
+                        <img src="./assets/photo/home-page-6.png" alt="photo">
+                    </div>
                 </div>
-                <div class="col-2 tech-card">
-                    <p class="tech-cards_p">Avtokranlar</p>
-                    <img src="./assets/photo/image 39.png" alt="photo">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                    <div class="tech-card">
+
+                        <p class="tech-cards_p">Avtokranlar</p>
+                        <img src="./assets/photo/home-page-7.png" alt="photo">
+                    </div>
                 </div>
-                <div class="col-2 tech-card">
-                    <p class="tech-cards_p">Avtokranlar</p>
-                    <img src="./assets/photo/image 39.png" alt="photo">
+                <div class="col-12 col-lg-3 col-md-6 col-sm-12">
+                    <div class="tech-card">
+                        <p class="tech-cards_p">Pompa</p>
+                        <img src="./assets/photo/home-page-8.png" alt="photo">
+                    </div>
                 </div>
-               
             </div>
         </div>
     </div>
-
+    <div class="own-container">
+        <div class="row">
+            <div class="col-6">
+                <div class="left-sc-img">
+                    <img src="./assets/photo/home-page-left-img1.png" alt="">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="right-sc">
+                <img src="./assets/photo/home-page-right.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
