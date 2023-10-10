@@ -49,20 +49,22 @@ header {
         cursor: pointer;
     }
 }
+
 @media (max-width:992px) {
 
-    .right-col{
+    .right-col {
         display: none;
         color: white;
     }
-    .left-col{
+
+    .left-col {
         width: 100%;
         background-image: url(..//photo/image\ 1.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
     }
-    
+
 }
 
 
@@ -165,10 +167,12 @@ header {
 
 .tech-cards {
     transition: 700ms;
-    &:hover{
+
+    &:hover {
         cursor: pointer;
         transform: scale(1.07);
     }
+
     .tech-card-p1 {
         color: #596C72;
         font-weight: 600;
@@ -228,11 +232,13 @@ header {
         }
     }
 }
-.tech-card-botto-button{
-    transition: 100ms;
+
+.tech-card-botto-button {
     margin-top: 3rem;
     text-align: center;
-    button{
+
+    button {
+        transition: 100ms;
         border: 1px solid #000;
         background-color: #FFC01F;
         color: #000;
@@ -240,7 +246,8 @@ header {
         border-radius: 20px;
         font-family: 'Mulish', sans-serif;
     }
-    button:hover{
+
+    button:hover {
         transform: scale(1.1);
         background-color: white;
     }

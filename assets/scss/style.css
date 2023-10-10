@@ -190,11 +190,11 @@ header p {
 }
 
 .tech-card-botto-button {
-  transition: 100ms;
   margin-top: 3rem;
   text-align: center;
 }
 .tech-card-botto-button button {
+  transition: 100ms;
   border: 1px solid #000;
   background-color: #FFC01F;
   color: #000;
