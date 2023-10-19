@@ -44,7 +44,6 @@ header p {
 @media (max-width: 992px) {
   .right-col {
     display: none;
-    color: white;
   }
   .left-col {
     width: 100%;
@@ -52,6 +51,21 @@ header p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    color: white;
+  }
+  .sec-1-p1 {
+    color: white !important;
+  }
+  .tech-card {
+    display: flex;
+  }
+  .tech-card p {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+  .tech-card img {
+    display: none;
   }
 }
 .sec-1 {
@@ -99,13 +113,11 @@ header p {
   background-color: white;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 25px 0 0;
-  transition: 500ms;
 }
 .techniques .tech-card img {
   width: 100%;
 }
 .techniques .tech-card:hover {
-  transform: scale(1.06);
   cursor: pointer;
 }
 .techniques .tech-cards_p {
@@ -135,13 +147,8 @@ header p {
 }
 
 .tech-cards {
-  transition: 700ms;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 5px 20px;
-}
-.tech-cards:hover {
-  cursor: pointer;
-  transform: scale(1.07);
 }
 .tech-cards .tech-card-p1 {
   color: #596C72;
@@ -205,4 +212,23 @@ header p {
 .tech-card-botto-button button:hover {
   transform: scale(1.1);
   background-color: white;
+}
+
+.mark-head-p p {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.57px;
+  color: #596C72;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.marks .mark {
+  background-color: white;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
