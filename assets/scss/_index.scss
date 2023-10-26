@@ -17,7 +17,7 @@
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-    padding: 10px 10px;
+    padding: 10px 25px;
 }
 
 header {
@@ -61,22 +61,39 @@ header {
         background-image: url(..//photo/image\ 1.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: 70vh;
         color: white;
-    }
-    .sec-1-p1{
-        color: white !important;
-    }
-    .tech-card{
         display: flex;
-        p{
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: end;
+        padding: 20px 15px;
+    }
+
+
+    .sec-1-p1 {
+        color: white !important;
+        font-size: 30px !important;
+    }
+
+    .tech-card {
+        display: flex;
+        padding: 30px 0 !important;
+
+        p {
             text-align: center;
             margin: 0 auto;
-            padding: 10px 10px;
         }
-        img{
+
+        img {
             display: none;
 
+        }
+    }
+
+    .left-sc-img {
+        img {
+            display: none;
         }
     }
 }
@@ -129,7 +146,6 @@ header {
     margin-top: 5rem;
 
     .tech-card {
-        background-color: white;
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
         padding: 25px 0 0;
 
@@ -173,6 +189,15 @@ header {
         width: 100%;
         padding: 10px 10px;
         box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media (max-width:992px) {
+    .right-sc {
+        display: none;
+    }
+    .right-sc-text{
+        background-image: url(../photo/home-page-right.png);
     }
 }
 
@@ -226,7 +251,7 @@ header {
             border: 1px solid #000;
             background-color: white;
             color: #000;
-            padding: 5px 100px;
+            padding: 5px 80px;
             border-radius: 20px;
             font-family: 'Mulish', sans-serif;
         }
@@ -279,5 +304,53 @@ header {
 
 .swiper {
     width: 100%;
-    height: 300px;
+}
+
+.innovations_part {
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        color: #596C72;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 6rem;
+    }
+}
+
+.innovations-card {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.innovations_card_text :nth-child(1) {
+    color: #191919;
+    line-height: 19.5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.innovations_card_text :nth-child(2) {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.57px;
+    color: #69768B;
+}
+
+.innovations_card_text :nth-child(3) {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 35px;
+}
+
+
+.innovations_card_text {
+    padding: 10px 10px;
 }
