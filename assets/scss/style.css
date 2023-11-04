@@ -50,7 +50,7 @@ header p {
     background-image: url(..//photo/image\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 55vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -91,7 +91,6 @@ header p {
   color: #596C72;
   font-weight: 700;
   font-size: 44px;
-  line-height: 70px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -160,6 +159,15 @@ header p {
   }
   .right-sc-text {
     background-image: url(../photo/home-page-right.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    padding: 20px 15px;
   }
 }
 .tech-cards {
@@ -248,6 +256,9 @@ header p {
   width: 100%;
 }
 
+.innovations_part {
+  margin-bottom: 15rem;
+}
 .innovations_part img {
   width: 100%;
 }
@@ -289,4 +300,136 @@ header p {
 
 .innovations_card_text {
   padding: 10px 10px;
+}
+
+.contackt-img img {
+  position: relative;
+  bottom: 210px;
+  width: 100%;
+}
+
+.con-inp-all {
+  display: flex;
+  gap: 20px;
+}
+.con-inp-all .con-inp {
+  display: flex;
+  gap: 30px;
+}
+
+.contact-part {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEFEF;
+  padding: 55px 25px;
+  height: 25rem;
+}
+
+.cont-text h1 {
+  color: #596C72;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+.cont-text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #353535;
+  font-family: "Mulish", sans-serif;
+}
+
+.con-inp input {
+  outline: none;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 35px;
+}
+
+.con-inp-all {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-buttn button {
+  padding: 10px 222px;
+  border-radius: 30px;
+  border: none;
+  background-color: #FFC01F;
+  transition: 500ms;
+}
+.contact-buttn button:hover {
+  background-color: white;
+}
+
+.contact-part__all {
+  display: flex;
+  background-color: #EFEFEF;
+  height: 400px;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 1200px) {
+  .con-right img {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .con-right img {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .con-inp {
+    flex-direction: column;
+  }
+  .contact-part__all {
+    height: 555px;
+  }
+}
+.foot-top-part {
+  display: flex;
+  align-items: center;
+}
+
+.foot-top-text .foot-top-text-p1 {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #596C72;
+}
+.foot-top-text .foot-top-text-p2 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  width: 87%;
+}
+
+.foot-top-img img {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px 10px;
+}
+
+@media (max-width: 992px) {
+  .foot-top-img img {
+    display: none;
+  }
+  .foot-top-text {
+    width: 100%;
+    background-image: url(../photo/image\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 73vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    padding: 20px 15px;
+  }
+  .foot-top-text-p1 {
+    color: white !important;
+  }
 }/*# sourceMappingURL=style.css.map */
