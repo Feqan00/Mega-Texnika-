@@ -20,6 +20,7 @@
     padding: 10px 25px;
 }
 
+
 header {
 
     background-color: #FFC01F;
@@ -479,6 +480,7 @@ header {
 .foot-top-part {
     display: flex;
     align-items: center;
+    margin-bottom: 10rem;
 }
 
 .foot-top-text {
@@ -524,8 +526,24 @@ header {
         justify-content: end;
         padding: 20px 15px;
     }
+
     .foot-top-text-p1 {
         color: white !important;
     }
 
+} 
+
+
+footer {
+    background-color: #FFC01F66;
+
+    .foot-about {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.foot-bottom{
+    display: flex;
+    justify-content: space-between;
 }

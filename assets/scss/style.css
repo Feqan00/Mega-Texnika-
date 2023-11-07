@@ -392,6 +392,7 @@ header p {
 .foot-top-part {
   display: flex;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 .foot-top-text .foot-top-text-p1 {
@@ -432,4 +433,16 @@ header p {
   .foot-top-text-p1 {
     color: white !important;
   }
+}
+footer {
+  background-color: rgba(255, 192, 31, 0.4);
+}
+footer .foot-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-bottom {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
