@@ -172,7 +172,8 @@ header p {
 }
 .tech-cards {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  padding: 5px 20px;
+  padding: 5px 5px;
+  border-radius: 10px;
 }
 .tech-cards .tech-card-p1 {
   color: #596C72;
@@ -354,7 +355,8 @@ header p {
 }
 
 .contact-buttn button {
-  padding: 10px 222px;
+  width: 100%;
+  padding: 10px 0;
   border-radius: 30px;
   border: none;
   background-color: #FFC01F;
@@ -386,7 +388,8 @@ header p {
     flex-direction: column;
   }
   .contact-part__all {
-    height: 555px;
+    height: 625px;
+    width: 100%;
   }
 }
 .foot-top-part {
@@ -411,6 +414,7 @@ header p {
 .foot-top-img img {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 10px 10px;
+  max-width: 100%;
 }
 
 @media (max-width: 992px) {
@@ -435,14 +439,79 @@ header p {
   }
 }
 footer {
-  background-color: rgba(255, 192, 31, 0.4);
+  background-image: url(../photo/Mask\ group.png);
 }
 footer .foot-about {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3rem;
+  gap: 70px;
 }
 
 .foot-bottom {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-log h1 {
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  .footer-log {
+    background-image: url(../logo/logo.png);
+    height: 12vh;
+    background-repeat: no-repeat;
+  }
+  .footer-log h1 {
+    display: none;
+  }
+  .foot-icon {
+    display: flex;
+    gap: 100px;
+    font-size: 25px;
+    margin-bottom: 2em;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+.nav-bar-p {
+  margin: 0 !important;
+}
+
+.own-container {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.625rem 1.5625rem;
+}
+
+header {
+  background-color: #FFC01F;
+  padding: 0.9375rem 0;
+}
+header p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-bar {
+  padding: 2.5rem 0;
+}
+.nav-bar .nav-bar-p {
+  margin: 0 !important;
+}
+.nav-bar a {
+  color: #353535;
+}
+.nav-bar .lang-hover:hover {
+  color: #FFC01F;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

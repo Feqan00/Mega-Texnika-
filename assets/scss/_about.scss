@@ -1,0 +1,52 @@
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Mulish', sans-serif;
+// 
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.nav-bar-p {
+    margin: 0 !important;
+}
+
+.own-container {
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: .625rem 1.5625rem;
+}
+
+
+header {
+
+    background-color: #FFC01F;
+    padding: .9375rem 0;
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+}
+
+.nav-bar {
+    padding: 2.5rem 0;
+
+    .nav-bar-p {
+        margin: 0 !important;
+    }
+
+    a {
+        color: #353535;
+    }
+
+    .lang-hover:hover {
+        color: #FFC01F;
+        cursor: pointer;
+    }
+}
