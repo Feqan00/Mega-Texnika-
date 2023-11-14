@@ -10,8 +10,55 @@
             a {
                 color: #ADADAD;
             }
-            a:hover{
+
+            a:hover {
                 color: greenyellow;
+            }
+        }
+    }
+}
+
+.smaal-card-img-part-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rent-sec {
+    display: flex;
+    gap: 10px;
+
+    .rent-sec-img-part2 {
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+}
+
+
+.product-name-part {
+    // margin: 0 auto;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 10px 10px;
+
+
+    .product-name-txt {
+        display: flex;
+        justify-content: space-between;
+
+        .product-name-txt1 {
+            font-size: 23px;
+            line-height: 24.38px;
+            font-weight: 600;
+            color: #596C72;
+        }
+
+        .product-name-txt2 {
+            font-size: 14px;
+        }
+
+        span {
+            .product-name-bottom-txt {
+                position: relative;
+                bottom: 12px;
             }
         }
     }

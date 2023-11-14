@@ -517,7 +517,7 @@ header p {
   cursor: pointer;
 }
 
-section {
+.section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -615,4 +615,40 @@ body {
 }
 .page-head-link ul li a:hover {
   color: greenyellow;
+}
+
+.smaal-card-img-part-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.rent-sec {
+  display: flex;
+  gap: 10px;
+}
+.rent-sec .rent-sec-img-part2 {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.product-name-part {
+  width: 100%;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px 10px;
+}
+.product-name-part .product-name-txt {
+  display: flex;
+  justify-content: space-between;
+}
+.product-name-part .product-name-txt .product-name-txt1 {
+  font-size: 23px;
+  line-height: 24.38px;
+  font-weight: 600;
+  color: #596C72;
+}
+.product-name-part .product-name-txt .product-name-txt2 {
+  font-size: 14px;
+}
+.product-name-part .product-name-txt span .product-name-bottom-txt {
+  position: relative;
+  bottom: 12px;
 }/*# sourceMappingURL=style.css.map */
