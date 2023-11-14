@@ -601,4 +601,18 @@ body {
   text-align: center;
   margin-top: 2em;
   margin-bottom: 5em;
+}
+
+.page-head-link ul {
+  display: flex;
+  gap: 10px;
+}
+.page-head-link ul li {
+  font-size: 15px;
+}
+.page-head-link ul li a {
+  color: #ADADAD;
+}
+.page-head-link ul li a:hover {
+  color: greenyellow;
 }/*# sourceMappingURL=style.css.map */

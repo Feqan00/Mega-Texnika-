@@ -1,0 +1,18 @@
+.page-head-link {
+    ul {
+        display: flex;
+        gap: 10px;
+
+
+        li {
+            font-size: 15px;
+
+            a {
+                color: #ADADAD;
+            }
+            a:hover{
+                color: greenyellow;
+            }
+        }
+    }
+}
