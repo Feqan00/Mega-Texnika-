@@ -630,25 +630,71 @@ body {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.product-name-part {
+.product--part {
   width: 100%;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  padding: 10px 10px;
+  padding: 35px 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
 }
-.product-name-part .product-head-txt {
+.product--part .product-head-txt {
   display: flex;
   justify-content: space-between;
+  margin-top: 4em;
 }
-.product-name-part .product-head-txt .product-name-txt1 {
+.product--part .product-head-txt .product-name-txt1 {
   font-size: 23px;
   line-height: 24.38px;
   font-weight: 600;
   color: #596C72;
 }
-.product-name-part .product-head-txt .product-name-txt2 {
+.product--part .product-head-txt .product-name-txt2 {
   font-size: 14px;
+  color: #B0ADAD;
+  font-weight: 400;
+  line-height: 17.57px;
 }
-.product-name-part .product-head-txt span .product-name-bottom-txt {
+.product--part .product-part-lorem {
+  margin-bottom: 3em;
+}
+.product--part .product-part-lorem p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #69768B;
+}
+.product--part span .product-name-bottom-txt {
   position: relative;
-  bottom: 12px;
+  bottom: 19px;
+}
+.product--part .rent-price-txt_in {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.product--part .rent-price-txt_in p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18.29px;
+  color: #596C72;
+}
+.product--part .rent-price-txt_in span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.38px;
+  color: #FFC01F;
+}
+
+.rent-button button {
+  border: none;
+  background-color: #FFC01F;
+  color: #353535;
+  width: 100%;
+  padding: 6px 0px;
+  border-radius: 20px;
+  transition: 100ms;
+}
+.rent-button button:hover {
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
