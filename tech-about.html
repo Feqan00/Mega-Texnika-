@@ -29,7 +29,8 @@
     <title>Document</title>
 </head>
 
-<body>
+<body id="body">
+    <!-- <img src="./assets/logo/822.gif" alt=""> -->
     <header>
         <div class="own-container">
             <div class="d-flex align-items-center justify-content-between ">
@@ -245,7 +246,7 @@
 
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-all">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Məlumatları doldurun</h1>
@@ -270,22 +271,31 @@
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" id="rentBtn" class="btn btn-warning w-100">İcarə et</button>
+                    <button class="btn btn-warning w-100" data-bs-target="#exampleModalToggle"
+                        data-bs-toggle="modal">İcarə
+                        et</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content ">
+                <div class="modal-body h-500 d-flex justify-content-center">
+                    <img src="./assets/logo/822.gif" alt="">
                 </div>
             </div>
         </div>
     </div>
 
 
-    <!-- Vertically centered modal -->
-    <div class="modal-dialog modal-dialog-centered">
-        ...
-    </div>
 
-    <!-- Vertically centered scrollable modal -->
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-        ...
-    </div>
+
+
+
+
     <footer>
         <div class="own-container">
             <div class="row g-2">
